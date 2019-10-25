@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ <style type="text/css">
+ #dibuja{
+  background: #9c9c9c;
+   }
+ </style>
+  </head>
+  <body>
+    <canvas id="dibuja" width="1500" height="750"></canvas>
+    <script type="text/javascript">
+   var canvas=document.getElementById("dibuja");
+   var ctx=canvas.getContext('2d');
+
+
+
+function radianes(grados){
+      return grados * Math.PI / 180;
+    }
+//abre circulo grande----------------------------------------------------------------------------------------------
+//abre amarillo--------------------------------------------------------------
+
+// va de 0  a 45 desde la parte izquierda por debajo sentido de las manecillas del reloj hasta arriva donde deberia ir el 0
+    ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ffff00";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(0), radianes(	45));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+
+
+
+//de 45 a 90
+
+    ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ffff00";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(45), radianes(	90));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+
+
+
+
+//de 270 a 315
+
+    ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ffff00";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(270), radianes(	315));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+
+
+
+//de 315 a 360 
+    ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ffff00";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(315), radianes(	360));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+//cierra amarillo------------------------------------------------------------------------
+
+
+//abre rojo---------------------------------------------------------------------------
+
+   //de 90 a 135
+    
+    ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ff0000";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(90), radianes(	135));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+  //de 135 a 180
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ff0000";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(135), radianes(	180));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+  //de 180 a 225
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ff0000";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(180), radianes(	225));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+  //de 225 a 270
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ff0000";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(225), radianes(	270));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+
+//cierra rojo parte derecha ---------------------------------------------------------------------------
+//cierra circulo grande---------------------------------------------------------------------------------------------
+
+
+
+
+
+//abre circulo chico-------------------------------------------------------------------------------
+//abre rojo-------------------------------------
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ff0000";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(0), radianes(	45));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ff0000";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(45), radianes(	90));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ff0000";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(180), radianes(	225));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ff0000";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(225), radianes(	270));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+//cierra rojo-------------------------------------------------------
+//amarillo inf izquierdo de 90 a 135
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ffff00";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(90), radianes(	135));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ffff00";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(135), radianes(	180));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+//amarillo sup derecho de 270 a 315
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ffff00";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(270), radianes(	315));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ffff00";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(315), radianes(	360));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+//cierra circulo chico------------------------------------------------------------------------
+
+//abre circulo enano
+
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ffff00";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(0), radianes(	45));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ff0000";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(45), radianes(	90));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ffff00";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(90), radianes(	135));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ff0000";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(135), radianes(	180));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ffff00";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(180), radianes(	225));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ff0000";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(225), radianes(	270));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ffff00";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(270), radianes(	315));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+
+ ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ff0000";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(315), radianes(	360));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+
+
+
+
+    </script>
+  </body>
+</html>
